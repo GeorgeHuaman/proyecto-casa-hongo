@@ -15,11 +15,13 @@ MonoBehaviour:
   version: 1
   sku: 
   packageName: Space_1
-  thumbnail: {fileID: 0}
-  savedProjectSettings: {fileID: 0}
+  thumbnail: {fileID: 2800000, guid: f412094938a85f243bec7971b61a4dd5, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
   worldID: 
-  scene: {fileID: 0}
-  csharpAssembly: {fileID: 0}
+  scene: {fileID: 102900000, guid: ffa918d9076910842bc9487275f3efa7, type: 3}
+  csharpAssembly: {fileID: 5897886265953266890, guid: 64f3ff992d0ff2642b6fc85f88110caa,
+    type: 3}
   embeddedPackageAssets: []
   networkPrefabs: []
   settings:
