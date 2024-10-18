@@ -25,8 +25,8 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.8
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7c86d4abbd33b564b9e773aceadb8572, type: 2}
+  m_SubtractiveShadowColor: {r: 0.4156863, g: 0.14509805, b: 0.18823531, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28586587, g: 0.3968508, b: 0.3435987, a: 1}
+  m_IndirectSpecularColor: {r: 0.022179201, g: 0.0118299415, b: 0.019840855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 4227f4ef8eb497b49a977e1bf2187c42,
+  m_LightingDataAsset: {fileID: 112000000, guid: ec66c498825d55947a14564e64632f1d,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 30c8b6423a6e57546ba4aa6021b7e904,
     type: 2}
@@ -1120,7 +1120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &26346379
 Light:
   m_ObjectHideFlags: 0
@@ -1132,8 +1132,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.48083812, b: 0, a: 1}
-  m_Intensity: 0.04
+  m_Color: {r: 0.9150943, g: 0.63743526, b: 0.617257, a: 1}
+  m_Intensity: 1.25
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1172,13 +1172,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 0, w: 2.2724365e+18}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1191,7 +1191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26346378}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 711, y: 75.97, z: 247.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1768,7 +1768,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -1909,6 +1909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -3971,7 +3976,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
@@ -4381,6 +4386,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -4455,6 +4465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -6641,7 +6656,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -7421,7 +7436,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -7961,7 +7976,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -9826,7 +9841,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
@@ -10001,7 +10016,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -10131,7 +10146,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: df1d7254b483050489c35d44c4af16bd,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: df1d7254b483050489c35d44c4af16bd,
         type: 3}
@@ -10277,6 +10292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -11433,6 +11453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -12286,7 +12311,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a2c43233024dc1741923d9766c9d736d,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a2c43233024dc1741923d9766c9d736d,
         type: 3}
@@ -12537,6 +12562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -13963,7 +13993,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
@@ -14365,6 +14395,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -14439,6 +14474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -14594,6 +14634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -15330,6 +15375,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -15542,6 +15592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -17324,7 +17379,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2d8beb73e39ad3d4e85e47802c3079e9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2d8beb73e39ad3d4e85e47802c3079e9,
         type: 3}
@@ -18134,7 +18189,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
@@ -18676,6 +18731,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -18925,6 +18985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -20689,6 +20754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -20897,7 +20967,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -21532,7 +21602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &635057649
 MonoBehaviour:
@@ -23923,7 +23993,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -25298,7 +25368,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -25823,7 +25893,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -28033,7 +28103,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -28683,6 +28753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -29874,7 +29949,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -30540,6 +30615,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -32127,6 +32207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -35315,6 +35400,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -35608,7 +35698,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -35774,6 +35864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -36378,7 +36473,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
@@ -36439,6 +36534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -38201,7 +38301,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -38636,7 +38736,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -39016,7 +39116,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -41314,6 +41414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -42779,6 +42884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -43162,7 +43272,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 127
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -43662,7 +43772,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -44559,7 +44669,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -45379,7 +45489,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -45829,7 +45939,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -47031,6 +47141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -47705,6 +47820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -48599,6 +48719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -49733,6 +49858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -50126,7 +50256,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -51453,6 +51583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -51661,7 +51796,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -51985,6 +52120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -52734,7 +52874,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -52864,7 +53004,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
@@ -53638,6 +53778,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -53871,7 +54016,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -55237,6 +55382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -55365,7 +55515,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -55480,7 +55630,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
@@ -55718,6 +55868,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -55978,6 +56133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -56323,6 +56483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -58431,6 +58596,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -58585,6 +58755,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -60032,6 +60207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -61239,7 +61419,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -61459,6 +61639,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -61774,6 +61959,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farol_Mod (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_RootOrder
@@ -61997,7 +62187,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -62378,6 +62568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -63354,7 +63549,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -63949,7 +64144,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -64185,6 +64380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -64500,6 +64700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -64874,7 +65079,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -64989,7 +65194,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
       propertyPath: m_ReceiveGI
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
@@ -67395,6 +67600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farol_Mod (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5220006497126070934, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
