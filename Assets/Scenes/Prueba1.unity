@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: ec66c498825d55947a14564e64632f1d,
+  m_LightingDataAsset: {fileID: 112000000, guid: e04a8f578c4dfb847903585673f359fc,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 30c8b6423a6e57546ba4aa6021b7e904,
     type: 2}
@@ -1964,22 +1964,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 1.0000023
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.00000016966874
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.7284e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -4460,17 +4460,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: NaN
+      value: 2.7e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.00422375e+14
+      value: -33497648
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: NaN
+      value: 5.6e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -4555,17 +4560,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: NaN
+      value: 2.7e-44
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 1.05e-43
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1e-45
+      value: 0.000000674947
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -10527,7 +10537,7 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 6.890559e+22
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -10537,12 +10547,12 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.0000001678061
+      value: 4.119566e-11
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.7284e-41
+      value: 4.757186e+30
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -11712,12 +11722,12 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 4.975785e-39
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0058627e-11
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -12832,12 +12842,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 2.2e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.05e-43
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.2557e-41
+      value: 4.0740914e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7e-44
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -14674,17 +14694,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 2.5e-44
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 3.735134e-35
+      value: 1.05e-43
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1e-45
+      value: 1.759054e+22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.1037e-41
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -14769,7 +14794,7 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 6.890596e+22
+      value: 8.5e-44
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -14779,12 +14804,12 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0968288e-11
+      value: 4.0513374e-11
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.757186e+30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -14949,22 +14974,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: NaN
+      value: 8.5e-44
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -3.544993e+32
+      value: 7.19e-43
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -15709,17 +15734,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0.015477181
+      value: 4.964025e+28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.7857633e+31
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: NaN
+      value: 2.112699e-19
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: NaN
+      value: 2.6453418e+20
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -15942,17 +15972,17 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 1.4e-44
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 4.283e-41
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.1877616e-11
+      value: 4.3e-44
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -19105,12 +19135,12 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0058793e-11
+      value: 4.0058797e-11
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: -9.308773e+25
+      value: 7.4e-44
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -19370,12 +19400,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: NaN
+      value: 2.5e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: NaN
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -21148,22 +21188,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.8942695e+23
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 7.175827e+22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.8231106e+23
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.4107304e+28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -29168,17 +29208,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1e-45
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -31045,22 +31090,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.2119193e+25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.9204616e+31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.0196247e-19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 2.895761e+32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -32753,22 +32798,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 4.4652845e+30
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 15643.599
+      value: 6.6160666e+34
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.23e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -36077,12 +36122,12 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 3.516423e-29
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 0.000000023493051
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -36562,22 +36607,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.165041e-11
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.6e-44
+      value: 8.3335537e+9
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -37252,22 +37297,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.8617176e+25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.005879e-11
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 2.1440634e+29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -42151,22 +42196,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 1.3815403e+25
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.1877782e-11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.7e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -43641,22 +43686,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -9.396603e-25
-      objectReference: {fileID: 0}
-    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.x
       value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 5.6124834e-28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 9.2e-43
+      value: 1.2479714e+30
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -48030,22 +48075,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0058793e-11
+      value: 2.2344193e+17
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 6.7e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -48730,22 +48775,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 6.890559e+22
+      value: -2.7942505e+35
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 6.900446e+34
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.005882e-11
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.757186e+30
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -49649,17 +49694,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0058627e-11
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -1.5091275e-22
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -50858,17 +50908,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.67e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.078e-42
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -52598,12 +52653,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -53146,22 +53211,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.119566e-11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.3e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -54823,17 +54888,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1e-45
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -56442,22 +56512,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.00000067122437
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.7284e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -56949,22 +57019,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 7.71547e+31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.165041e-11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.4e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -57234,17 +57304,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.000010560733
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -57599,22 +57674,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 3.4e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.000000041485862
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.7284e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -59731,22 +59806,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 3.6e-44
+      value: 3.516423e-29
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0.000000023493051
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.3146377e-27
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 9.2e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -59911,17 +59986,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0058627e-11
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 8.3335537e+9
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -61377,22 +61457,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 6.8905588e+22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.000000041485862
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 2.539029e+30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -62830,17 +62910,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.5e-44
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.9420936e+31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.9602858e-19
+      value: 2.8044698e+9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -63164,7 +63249,12 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.05e-43
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -63784,22 +63874,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 6.890596e+22
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.00000067122437
+      value: -0.000000046530644
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 2.539029e+30
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -65616,22 +65706,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -0.00057397597
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: -1.710259e-13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -65956,22 +66046,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2.5e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.05e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.0000001678061
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.7284e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
@@ -68876,17 +68966,22 @@ PrefabInstance:
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.3e-44
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 4.608443e-39
+      value: 1.05e-43
       objectReference: {fileID: 0}
     - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 4.0286e-11
+      value: 4.0058797e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270898703276640329, guid: 3500763160d55d54f808ac2b79e54ffe,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.1509016e+27
       objectReference: {fileID: 0}
     - target: {fileID: 4844431653421867052, guid: 3500763160d55d54f808ac2b79e54ffe,
         type: 3}
