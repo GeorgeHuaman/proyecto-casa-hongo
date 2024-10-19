@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Space_Feature_Demo
   m_EditorClassIdentifier: 
   version: 1
-  sku: 
-  packageName: featureDemo
+  sku: 6713e0d9415af9a3e04604ae
+  packageName: Campus MAF
   thumbnail: {fileID: 2800000, guid: f412094938a85f243bec7971b61a4dd5, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
-  worldID: 
-  scene: {fileID: 102900000, guid: e2f4d56023942ed42b41d546c4c1b988, type: 3}
+  worldID: gio9ft4y1v7juir5d0kph
+  scene: {fileID: 102900000, guid: ffa918d9076910842bc9487275f3efa7, type: 3}
   csharpAssembly: {fileID: 5897886265953266890, guid: 64f3ff992d0ff2642b6fc85f88110caa,
     type: 3}
   embeddedPackageAssets: []
