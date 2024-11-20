@@ -15,7 +15,7 @@ MonoBehaviour:
   version: 1
   sku: 6713e0d9415af9a3e04604ae
   packageName: Campus MAF
-  thumbnail: {fileID: 2800000, guid: 7e58dde54a91ae14e99448f9d6b8f786, type: 3}
+  thumbnail: {fileID: 2800000, guid: 2a2b04bef8efecd41a59ea778b83f3d5, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
   worldID: gio9ft4y1v7juir5d0kph
