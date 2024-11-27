@@ -565,7 +565,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2494297
+      value: -0.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
@@ -2174,6 +2174,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &38414042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 38414041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &38414043
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38414042}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &38708816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2613,21 +2633,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.71466
       objectReference: {fileID: 0}
@@ -2685,16 +2690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -3380,16 +3380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -3399,26 +3394,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 68728068}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &68728070 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 68728068}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &68728071
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68728070}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &69505439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3806,21 +3781,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.121033
       objectReference: {fileID: 0}
@@ -3878,16 +3838,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -4247,7 +4202,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
@@ -4546,21 +4501,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.391052
       objectReference: {fileID: 0}
@@ -4618,16 +4558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -5543,7 +5478,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -5604,16 +5539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -5623,26 +5553,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 131919055}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &131919057 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 131919055}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &131919058
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131919057}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &132931019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5897,6 +5807,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &136997374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 136997373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &136997375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136997374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &142031610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6162,7 +6092,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0899b7ab283f0624d852c1275c2f1357,
         type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0899b7ab283f0624d852c1275c2f1357,
         type: 3}
@@ -6343,16 +6273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (46)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -6665,7 +6590,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -6914,6 +6839,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &163120940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 163120939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &163120941
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163120940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &165474421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7068,6 +7013,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &166263746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 166263745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &166263747
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166263746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &172792933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7163,7 +7128,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -7623,7 +7588,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
@@ -7947,21 +7912,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.748962
       objectReference: {fileID: 0}
@@ -8019,16 +7969,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -8678,7 +8623,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -8882,6 +8827,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &226294602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 226294601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &226294603
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226294602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &229358181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9067,7 +9032,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 110
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -9587,7 +9552,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -10202,7 +10167,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
@@ -10612,7 +10577,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: df1d7254b483050489c35d44c4af16bd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df1d7254b483050489c35d44c4af16bd,
         type: 3}
@@ -11486,21 +11451,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.111023
       objectReference: {fileID: 0}
@@ -11558,16 +11508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (40)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -11648,16 +11593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (61)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -12717,7 +12657,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a2c43233024dc1741923d9766c9d736d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a2c43233024dc1741923d9766c9d736d,
         type: 3}
@@ -12942,7 +12882,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 93a1e0cefed229f488cae7a87ede03c8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93a1e0cefed229f488cae7a87ede03c8,
         type: 3}
@@ -14087,6 +14027,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &358463093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 358463092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &358463094
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358463093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &371628728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14742,7 +14702,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
@@ -14947,7 +14907,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c51579dcca428b9408653c775d90f94f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c51579dcca428b9408653c775d90f94f,
         type: 3}
@@ -15949,21 +15909,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.351013
       objectReference: {fileID: 0}
@@ -16021,16 +15966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -16495,7 +16435,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 111
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -17058,7 +16998,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -17157,21 +17097,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.851013
       objectReference: {fileID: 0}
@@ -17229,16 +17154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -17517,21 +17437,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4310303
       objectReference: {fileID: 0}
@@ -17589,16 +17494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -17986,21 +17886,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.92102
       objectReference: {fileID: 0}
@@ -18058,16 +17943,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (38)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -18148,16 +18028,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (42)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -18272,7 +18147,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2d8beb73e39ad3d4e85e47802c3079e9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d8beb73e39ad3d4e85e47802c3079e9,
         type: 3}
@@ -18557,16 +18432,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (56)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -18671,7 +18541,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -19126,7 +18996,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
@@ -20321,6 +20191,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &543769563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 543769562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &543769564
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543769563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1 &546031080
 GameObject:
   m_ObjectHideFlags: 0
@@ -21259,7 +21149,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -21524,7 +21414,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 98
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -21619,7 +21509,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -21680,16 +21570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -21699,26 +21584,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 590565025}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &590565027 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 590565025}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &590565028
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590565027}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &594615048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21729,7 +21594,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -21828,21 +21693,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.43103
       objectReference: {fileID: 0}
@@ -21900,16 +21750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -21929,7 +21774,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -22024,7 +21869,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -22394,7 +22239,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -23888,7 +23733,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -24240,7 +24085,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -24339,21 +24184,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.851013
       objectReference: {fileID: 0}
@@ -24411,16 +24241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -24884,7 +24709,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -24945,16 +24770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -24964,26 +24784,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 680496514}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &680496516 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 680496514}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &680496517
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 680496516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &680674891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25322,16 +25122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -25341,26 +25136,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 684134873}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &684134875 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 684134873}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &684134876
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684134875}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &684757871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25456,7 +25231,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
@@ -25551,7 +25326,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -26230,16 +26005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (52)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -26490,16 +26260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (62)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -26580,16 +26345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (60)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -27357,16 +27117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (45)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -27556,7 +27311,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -27737,16 +27492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (51)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -28451,16 +28201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (58)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -28796,16 +28541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (44)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -29354,21 +29094,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.688965
       objectReference: {fileID: 0}
@@ -29426,16 +29151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -29710,7 +29430,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -31147,21 +30867,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.748962
       objectReference: {fileID: 0}
@@ -31219,16 +30924,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -32084,7 +31784,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -32466,7 +32166,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -33452,21 +33152,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.391052
       objectReference: {fileID: 0}
@@ -33524,16 +33209,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -33830,7 +33510,7 @@ PrefabInstance:
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000012397766
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
@@ -34979,7 +34659,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
@@ -35863,21 +35543,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.591003
       objectReference: {fileID: 0}
@@ -35935,16 +35600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -36749,7 +36409,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -36854,7 +36514,7 @@ PrefabInstance:
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: -0.38
       objectReference: {fileID: 0}
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
@@ -37315,16 +36975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (66)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -37433,21 +37088,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.851013
       objectReference: {fileID: 0}
@@ -37505,16 +37145,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (36)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -37874,7 +37509,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -38145,16 +37780,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (48)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -38174,7 +37804,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -38664,7 +38294,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
@@ -38953,21 +38583,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.789
       objectReference: {fileID: 0}
@@ -39025,16 +38640,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -39054,7 +38664,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
@@ -39754,7 +39364,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0899b7ab283f0624d852c1275c2f1357,
         type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0899b7ab283f0624d852c1275c2f1357,
         type: 3}
@@ -40025,16 +39635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -40192,7 +39797,7 @@ PrefabInstance:
     - target: {fileID: 1693060152079803876, guid: 9b4d4a92cac2da04cb97de53d1b00abf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.369
       objectReference: {fileID: 0}
     - target: {fileID: 1693060152079803876, guid: 9b4d4a92cac2da04cb97de53d1b00abf,
         type: 3}
@@ -41517,7 +41122,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -41895,6 +41500,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &1179823563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1179823562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1179823564
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179823563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &1184873620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41990,7 +41615,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -42114,21 +41739,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.229004
       objectReference: {fileID: 0}
@@ -42186,16 +41796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -43252,7 +42857,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -43313,16 +42918,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -43332,26 +42932,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1235025232}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1235025234 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1235025232}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1235025235
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235025234}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &1235046892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43617,7 +43197,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -43797,7 +43377,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -44053,16 +43633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -44072,26 +43647,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1249262347}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1249262349 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1249262347}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1249262350
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249262349}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &1249647308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44438,16 +43993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (47)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -44731,16 +44281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (50)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -44934,21 +44479,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.688965
       objectReference: {fileID: 0}
@@ -45006,16 +44536,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -45289,21 +44814,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.958984
       objectReference: {fileID: 0}
@@ -45361,16 +44871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -46196,16 +45701,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (43)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 127
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -46950,7 +46450,7 @@ PrefabInstance:
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
@@ -47317,7 +46817,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -47437,7 +46937,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c51579dcca428b9408653c775d90f94f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c51579dcca428b9408653c775d90f94f,
         type: 3}
@@ -47627,7 +47127,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 96
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -47896,21 +47396,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.208984
       objectReference: {fileID: 0}
@@ -47968,16 +47453,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -48183,7 +47663,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -48563,7 +48043,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -49177,6 +48657,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &1424008392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1424008391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1424008393
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424008392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &1426929072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49758,16 +49258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (59)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -49872,7 +49367,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -50388,16 +49883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (55)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -50563,16 +50053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (63)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -50593,21 +50078,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -50668,16 +50138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -51750,7 +51215,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -53199,16 +52664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (54)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -53228,7 +52688,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -53452,21 +52912,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.851013
       objectReference: {fileID: 0}
@@ -53524,16 +52969,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -54775,7 +54215,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -54895,7 +54335,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -54956,16 +54396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -54975,26 +54410,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1580062075}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1580062077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1580062075}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1580062078
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580062077}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1 &1581661088
 GameObject:
   m_ObjectHideFlags: 0
@@ -55333,16 +54748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (49)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -55633,7 +55043,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
@@ -55752,21 +55162,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.141052
       objectReference: {fileID: 0}
@@ -55824,16 +55219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -55973,7 +55363,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76ce26b8affb1b64da90c916134a565c,
         type: 3}
@@ -56282,21 +55672,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.141052
       objectReference: {fileID: 0}
@@ -56354,16 +55729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (35)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -56731,16 +56101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (53)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -56869,21 +56234,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.121033
       objectReference: {fileID: 0}
@@ -56941,16 +56291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (41)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -56970,7 +56315,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -57543,21 +56888,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.498962
       objectReference: {fileID: 0}
@@ -57615,16 +56945,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -57644,7 +56969,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 112
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -58198,6 +57523,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &1663364871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1663364870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1663364872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663364871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &1670280476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58548,7 +57893,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -58748,7 +58093,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
@@ -58868,7 +58213,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24b793c4d76d6f848932cbad9093cd0b,
         type: 3}
@@ -59364,21 +58709,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.9446
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.53
       objectReference: {fileID: 0}
@@ -59436,16 +58766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -59575,7 +58900,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee0ad41fa4b9df147ab8963397e6f570,
         type: 3}
@@ -60227,7 +59552,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -60322,7 +59647,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -60478,16 +59803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (64)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -60835,16 +60155,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (57)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -60949,7 +60264,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -62458,21 +61773,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.450084
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.391052
       objectReference: {fileID: 0}
@@ -62530,16 +61830,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (33)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -62895,7 +62190,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -63957,7 +63252,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24945784
+      value: -0.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
@@ -64567,21 +63862,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.631042
       objectReference: {fileID: 0}
@@ -64639,16 +63919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -65702,6 +64977,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4006f2e5e33e1e64ebb189bec74dd4ea, type: 3}
+--- !u!1 &1904086413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613013107041080118, guid: 4006f2e5e33e1e64ebb189bec74dd4ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1904086412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1904086414
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904086413}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4826929447448276505, guid: cb258a7bd2bdaf74ca2118a3a2536e82, type: 3}
 --- !u!1001 &1904550002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65712,7 +65007,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -66489,7 +65784,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -66550,16 +65845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -66669,7 +65959,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -67124,7 +66414,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15b1ebf659f864449be546179c6fe7d2,
         type: 3}
@@ -67754,7 +67044,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -68319,7 +67609,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
@@ -68504,7 +67794,7 @@ PrefabInstance:
     - target: {fileID: 1693060152079803876, guid: 9b4d4a92cac2da04cb97de53d1b00abf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1693060152079803876, guid: 9b4d4a92cac2da04cb97de53d1b00abf,
         type: 3}
@@ -68569,7 +67859,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f65daf850f7dd849ab4e800f542122f,
         type: 3}
@@ -68689,7 +67979,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e49f90b8c95ad541a97da4ff5c49b78,
         type: 3}
@@ -69174,7 +68464,7 @@ PrefabInstance:
     - target: {fileID: 1693060152079803876, guid: 9b4d4a92cac2da04cb97de53d1b00abf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.317
       objectReference: {fileID: 0}
     - target: {fileID: 1693060152079803876, guid: 9b4d4a92cac2da04cb97de53d1b00abf,
         type: 3}
@@ -69239,7 +68529,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
@@ -69300,16 +68590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -69319,26 +68604,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2069552591}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2069552593 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 2069552591}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &2069552594
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069552593}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &2074631220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69410,16 +68675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (65)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -69500,16 +68760,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -69529,7 +68784,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 91
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -69685,16 +68940,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -69704,26 +68954,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2080620025}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2080620027 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-    type: 3}
-  m_PrefabInstance: {fileID: 2080620025}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &2080620028
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080620027}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6783288367606459632, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
 --- !u!1001 &2086895380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69734,7 +68964,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1a229ddacd9bace42954d00929df03ad,
         type: 3}
@@ -69814,7 +69044,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -70095,7 +69325,7 @@ PrefabInstance:
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 4632075107795280641, guid: 2a73b52ca0b891244986e67b1c2b6c26,
         type: 3}
@@ -70414,21 +69644,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8775065
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.851013
       objectReference: {fileID: 0}
@@ -70486,16 +69701,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ee41268dc54283346aa00a63c2f2c5f7, type: 2}
+      objectReference: {fileID: 2100000, guid: 11ce2aa7b5d64834686f8bbad110f1d7, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
         type: 3}
       propertyPath: m_Name
       value: Arbol1_Mod (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6f1d284d0989c3b4783676aadb77952e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1d284d0989c3b4783676aadb77952e, type: 3}
@@ -70865,7 +70075,7 @@ PrefabInstance:
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 1274993071427534487, guid: 151e11758b837c140861507390339e4a,
         type: 3}
@@ -71211,7 +70421,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d565c41cb7cc009478698673461797d9,
         type: 3}
